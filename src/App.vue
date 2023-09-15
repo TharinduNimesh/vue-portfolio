@@ -9,7 +9,7 @@
     <loading-screen :is-dark="isDark" :is-loading="isLoading" />
     <home-header :is-dark="isDark" :show-background="headerBackground" />
     <main
-      class="max-h-screen overflow-y-scroll scroll-smooth snap-proximity snap-y"
+      class="max-h-screen overflow-y-scroll "
       @scroll="setHeaderBackground"
     >
       <home-page :is-dark="isDark" />
