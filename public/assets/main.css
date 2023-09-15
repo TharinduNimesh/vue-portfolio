@@ -1,0 +1,50 @@
+main {
+    scroll-padding: 80px;
+}
+
+:root {
+    --primary: #1a81ff;
+    --primary-gradient: linear-gradient(90deg, #5553ff, #1a81ff);
+}
+
+section {
+    padding-bottom: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: #000;
+}
+
+.text-primary {
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.underline-primary {
+    position: relative;
+}
+
+.underline-primary::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 60%;
+    height: 2px;
+    background-image: var(--primary-gradient);
+}
+
+.primary-bounce {
+    animation: bounce 3s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-20px);
+    }
+}
