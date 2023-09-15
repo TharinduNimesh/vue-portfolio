@@ -84,8 +84,4 @@ export default {
   background-color: var(--primary);
 }
 
-p {
-  font-weight: 400;
-  text-align: justify;
-}
 </style>

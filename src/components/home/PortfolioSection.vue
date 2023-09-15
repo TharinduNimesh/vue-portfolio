@@ -44,6 +44,9 @@
         <img src="/img/portfolio-man.png" class="w-2/3 primary-bounce" />
       </div>
     </div>
+    <div class="flex flex-wrap justify-center mt-20">
+      <project-card :is-dark="isDark" />
+    </div>
   </section>
 </template>
 
@@ -51,12 +54,15 @@
 import MainHeading from "./MainHeading.vue";
 import PrimaryButton from "../PrimaryButton.vue";
 
+import ProjectCard from "./ProjectCard.vue";
+
 export default {
   name: "PortfolioSection",
   props: ["isDark"],
   components: {
     MainHeading,
     PrimaryButton,
+    ProjectCard,
   },
   computed: {
     theme() {
