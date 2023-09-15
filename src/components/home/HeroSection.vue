@@ -1,6 +1,6 @@
 <template>
   <section
-    class="snap-start bg-cover bg-center duration-300 flex flex-col lg:flex-row pb-0"
+    class="snap-start bg-cover bg-center duration-300 flex flex-col justify-center lg:flex-row pb-0"
     :style="`background-image: url(/img/hero-${theme}.jpg);`"
   >
     <div class="w-full lg:w-1/2 order-2 lg:order-1">

@@ -26,8 +26,6 @@ import ToggleTheme from "./components/ToggleTheme.vue";
 import HomePage from "./components/HomePage.vue";
 import LoadingScreen from "./components/LoadingScreen.vue";
 
-import axios from "axios";
-
 export default {
   name: "App",
   components: {

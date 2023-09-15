@@ -1,10 +1,11 @@
 <template>
   <div class="py-3 px-5 fixed w-full z-40">
     <header
-      class="w-full h-16 rounded-xl flex justify-between items-center px-5 duration-300 backdrop-blur-md"
+      class="w-full h-16 rounded-xl flex justify-between items-center px-5 duration-300"
       :class="{
-        'bg-dark shadow-md shadow-slate-700': isDark && showBackground,
-        'bg-light shadow-md': !isDark && showBackground,
+        'bg-dark shadow-slate-700': isDark && showBackground,
+        'bg-light': !isDark && showBackground,
+        'shadow-md backdrop-blur-md' : showBackground,
       }"
     >
       <my-logo :isDark="isDark"/>

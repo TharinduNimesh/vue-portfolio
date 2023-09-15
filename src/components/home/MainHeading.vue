@@ -26,7 +26,7 @@ export default {
 
 <style scoped>
 .main-heading {
-  font-size: 62px;
+  font-size: 54px;
   font-weight: 800;
   opacity: 0.2;
   position: relative;
@@ -34,11 +34,21 @@ export default {
 }
 
 .sub-heading {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   position: absolute;
   bottom: 0;
   right: 0;
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 62px;
+  }
+
+  .sub-heading {
+    font-size: 34px;
+  }
 }
 </style>

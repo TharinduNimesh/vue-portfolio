@@ -66,5 +66,10 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.primary-bounce {
+  width: 66%;
+  max-width: 500px;
+  height: auto;
+}
 </style>
