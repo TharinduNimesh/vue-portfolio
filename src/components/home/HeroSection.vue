@@ -3,7 +3,7 @@
     class="snap-start bg-cover bg-center duration-300 flex flex-col justify-center lg:flex-row pb-0"
     :style="`background-image: url(/img/hero-${theme}.jpg);`"
   >
-    <div class="w-full lg:w-1/2 order-2 lg:order-1">
+    <div class="w-full lg:w-1/2 mb-5 lg:mb-0 order-2 lg:order-1">
       <div
         class="flex flex-col justify-center text-center lg:text-left h-full px-5 md:px-20 lg:px-0 lg:pl-20"
         :class="{

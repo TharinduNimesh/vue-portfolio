@@ -9,6 +9,7 @@ export default {
       cursor: {
         default: 'url(/public/img/cursor.png), default',
         pointer: 'url(/public/img/pointer.png), pointer',
+        grab: 'url(/public/img/disabled.png), grab',
       },
       fontFamily: {
         'monteserrat': ['Montserrat', 'sans-serif'],
