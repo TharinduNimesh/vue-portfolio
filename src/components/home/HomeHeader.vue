@@ -3,7 +3,7 @@
     <header
       class="w-full h-16 rounded-xl flex justify-between items-center px-5 duration-300 backdrop-blur-md"
       :class="{
-        'bg-dark shadow-slate-700': isDark && showBackground,
+        'bg-dark shadow-slate-800': isDark && showBackground,
         'bg-light': !isDark && showBackground,
         'shadow-md ' : showBackground,
       }"

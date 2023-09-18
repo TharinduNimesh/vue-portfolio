@@ -15,7 +15,7 @@
           class="flex flex-col justify-center lg:block font-bold mb-5 duration-300"
         >
         <span class="self-center mr-4 text-lg font-monteserrat-alt">Hello, It's Me</span>
-          <div class="flex mt-3 self-center text-5xl ">
+          <div class="flex mt-3 self-center text-4xl lg:text-5xl ">
             <img src="/img/T.png" class="w-10 lg:w-16" />
             <span class="text-primary self-end">harindu Nimesh</span>
           </div>

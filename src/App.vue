@@ -1,17 +1,10 @@
 <template>
-  <div
-    class="cursor-default duration-300"
-    :class="{
-      'bg-gray-900': isDark,
-      'bg-slate-100': !isDark,
-    }"
-  >
+  <div class="cursor-default duration-300">
     <loading-screen :is-dark="isDark" :is-loading="isLoading" />
     <home-header :is-dark="isDark" :show-background="headerBackground" />
     <main
-      class="bg-repeat-y lg:bg-contain"
+      class="bg-repeat-y lg:bg-contain duration-300"
       :style="`background-image: url(/img/projects-bg-${theme}.png);`"
-      @scroll="setHeaderBackground"
     >
       <home-page :is-dark="isDark" />
     </main>
@@ -50,10 +43,11 @@ export default {
     setTimeout(() => {
       this.isLoading = false;
     }, 1000);
+    window.addEventListener("scroll", this.setHeaderBackground);
   },
   methods: {
     setHeaderBackground(e) {
-      this.headerBackground = e.target.scrollTop > 100 ? true : false;
+      this.headerBackground = window.scrollY > 100 ? true : false;
     },
     setTheme() {
       this.isDark = !this.isDark;

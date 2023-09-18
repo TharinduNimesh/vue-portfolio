@@ -39,7 +39,7 @@
           :class="{
             'bg-gray-800 text-white': !isDark,
             'bg-gray-900 text-slate-100': isDark,
-            'opacity-60 hover:transform-none cursor-grab': disabled,
+            'opacity-60 hover:transform-none !cursor-grab': disabled,
           }"
           >{{ button }}</a
         >

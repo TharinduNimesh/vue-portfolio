@@ -13,8 +13,8 @@
         image="blog-3.jpg"
         published-at="03 October 2023"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ex id
-        quam quod labore cupiditate.
+        Are you interested in the exciting world of web development but don't
+        know where to begin? You're not alone. Many aspiring developers
       </blog-card>
 
       <blog-card
@@ -23,8 +23,8 @@
         image="blog-2.avif"
         published-at="18 September 2023"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ex id
-        quam quod labore cupiditate.
+        In today's digital age, having a strong online presence is not just an
+        option; it's a necessity for businesses of all sizes. In this blog post
       </blog-card>
 
       <blog-card
@@ -33,8 +33,8 @@
         image="blog-1.png"
         published-at="13 September 2023"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ex id
-        quam quod labore cupiditate.
+        As a first-year software engineering student at JIAT (Java Institute For
+        Advanced Technology), I embarked on this
       </blog-card>
     </div>
   </section>
