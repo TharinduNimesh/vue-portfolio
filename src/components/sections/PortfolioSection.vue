@@ -1,7 +1,6 @@
 <template>
   <section
     class="snap-start bg-cover bg-left-bottom duration-300 flex flex-col"
-    :style="`background-image: url('/img/projects-bg-${theme}.png');`"
   >
     <main-heading
       :is-dark="isDark"
