@@ -134,9 +134,9 @@
 import numberToWords from "number-to-words";
 
 // Components
-import MainHeading from "./MainHeading.vue";
-import ProgressBar from "./ProgressBar.vue";
-import SkillCard from "./SkillCard.vue";
+import MainHeading from "../home/MainHeading.vue";
+import ProgressBar from "../home/ProgressBar.vue";
+import SkillCard from "../home/SkillCard.vue";
 
 export default {
   name: "ExperienceSection",

@@ -98,10 +98,9 @@
 </template>
 
 <script>
-import MainHeading from "./MainHeading.vue";
+import MainHeading from "../home/MainHeading.vue";
 import PrimaryButton from "../PrimaryButton.vue";
-
-import ProjectCard from "./ProjectCard.vue";
+import ProjectCard from "../home/ProjectCard.vue";
 
 export default {
   name: "PortfolioSection",
