@@ -1,7 +1,6 @@
 <template>
   <section
     class="snap-start bg-cover bg-left-bottom duration-300 flex flex-col"
-    :style="`background-image: url(/img/experience-bg-${theme}.png);`"
   >
     <main-heading
       :isDark="isDark"
@@ -66,7 +65,6 @@
 
   <section
     class="bg-cover bg-left-bottom duration-300 flex flex-col py-8"
-    :style="`background-image: url('/img/skill-bg-${theme}.png')`"
   >
     <div class="flex flex-1 justify-center flex-wrap gap-8">
       <skill-card
@@ -134,9 +132,9 @@
 import numberToWords from "number-to-words";
 
 // Components
-import MainHeading from "./MainHeading.vue";
-import ProgressBar from "./ProgressBar.vue";
-import SkillCard from "./SkillCard.vue";
+import MainHeading from "../home/MainHeading.vue";
+import ProgressBar from "../home/ProgressBar.vue";
+import SkillCard from "../home/SkillCard.vue";
 
 export default {
   name: "ExperienceSection",

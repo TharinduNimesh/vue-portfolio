@@ -9,7 +9,8 @@
     <loading-screen :is-dark="isDark" :is-loading="isLoading" />
     <home-header :is-dark="isDark" :show-background="headerBackground" />
     <main
-      class="max-h-screen overflow-y-scroll "
+      class="bg-repeat-y lg:bg-contain"
+      :style="`background-image: url(/img/projects-bg-${theme}.png);`"
       @scroll="setHeaderBackground"
     >
       <home-page :is-dark="isDark" />

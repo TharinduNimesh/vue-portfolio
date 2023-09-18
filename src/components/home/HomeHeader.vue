@@ -65,7 +65,7 @@ export default {
         },
         {
           path: "#",
-          name: "Blog",
+          name: "Insights",
         },
         {
           path: "#",

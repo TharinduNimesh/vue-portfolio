@@ -1,7 +1,6 @@
 <template>
   <section
     class="snap-start bg-cover bg-left-bottom duration-300 flex flex-col"
-    :style="`background-image: url('/img/projects-bg-${theme}.png');`"
   >
     <main-heading
       :is-dark="isDark"
@@ -98,10 +97,9 @@
 </template>
 
 <script>
-import MainHeading from "./MainHeading.vue";
+import MainHeading from "../home/MainHeading.vue";
 import PrimaryButton from "../PrimaryButton.vue";
-
-import ProjectCard from "./ProjectCard.vue";
+import ProjectCard from "../home/ProjectCard.vue";
 
 export default {
   name: "PortfolioSection",

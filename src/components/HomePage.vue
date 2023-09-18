@@ -3,13 +3,15 @@
   <about-section :is-dark="isDark" />
   <experience-section :is-dark="isDark"/>
   <portfolio-section :is-dark="isDark" />
+  <blog-section :is-dark="isDark" />
 </template>
 
 <script>
-import HeroSection from './home/HeroSection.vue';
-import AboutSection from './home/AboutSection.vue';
-import ExperienceSection from './home/ExperienceSection.vue';
-import PortfolioSection from "./home/PortfolioSection.vue";
+import HeroSection from './sections/HeroSection.vue';
+import AboutSection from './sections/AboutSection.vue';
+import ExperienceSection from './sections/ExperienceSection.vue';
+import PortfolioSection from "./sections/PortfolioSection.vue";
+import BlogSection from './sections/BlogSection.vue';
 
 export default {
     name: 'HomePage',
@@ -19,10 +21,7 @@ export default {
       AboutSection,
       ExperienceSection,
       PortfolioSection,
+      BlogSection,
     },
 };
 </script>
-
-<style scoped>
-
-</style>
